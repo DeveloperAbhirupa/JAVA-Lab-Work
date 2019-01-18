@@ -7,17 +7,17 @@ public static void main(String [] args)
     int choice;
     do
     {
-    System.out.println("Enter registration number:");
+    System.out.println("Registration number:");
     String regno=sc.next();
-    System.out.println("Enter name:");
+    System.out.println("Name:");
     String name=sc.next();
-    System.out.println("Enter CGPA:");
-    float CGPA=sc.nextFloat();
-    System.out.println("Enter Program:");
+    System.out.println("CGPA:");
+    String CGPA=sc.next();
+    System.out.println("Program:");
     String pgrm=sc.next();
-    System.out.println("Enter School:");
+    System.out.println("School:");
     String school=sc.next();
-    System.out.println("Enter proctor:");
+    System.out.println("Proctor:");
     String proctor=sc.next();
     System.out.println("Registration number:"+regno);
     System.out.println("Name:"+name);
@@ -25,7 +25,7 @@ public static void main(String [] args)
     System.out.println("Program:"+pgrm);
     System.out.println("School:"+school);
     System.out.println("Proctor:"+proctor);
-    System.out.println("Do you want to enter and display your details?1/0");
+    System.out.println("Do you want to enter and display details? 1-Yes/0-No");
     choice=sc.nextInt();
     }while(choice!=0);
     

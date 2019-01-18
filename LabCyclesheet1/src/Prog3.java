@@ -68,7 +68,7 @@ public class Prog3 {
         {
             
             char c=eqn.charAt(i);
-            System.out.println("Petuk:"+c);
+//            System.out.println("Petuk:"+c);
          
 //            if(i!=org)
 //                c=eqn.charAt(i+1);

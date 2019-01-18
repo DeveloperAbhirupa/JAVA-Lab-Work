@@ -27,6 +27,7 @@ public class Prog1 {
         System.out.println("Enter weight:");
         weight=Double.parseDouble(br.readLine());
         double bmi= weight/(height*height);
+        System.out.println(bmi);
         if(bmi<18.5)
             System.out.println("Underweight");
         else if(bmi<=25)
